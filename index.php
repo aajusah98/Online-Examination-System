@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Online Examination System</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="/CSS/registration.css">
+  <script type="text/javascript" src="validattion.js">
+  </script>
+<body>
+  <div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+  <div class="panel panel-primary">
+       <div class="panel-heading"></h1>Online Examination System</h2></div>
+       <div class="panel-body">Panel Content</div>
+     </div>
+   </div>
+ </div>
+</div>
+<div class="container">
+  <div class="row">
+      <div class="col-sm-6">
+        <div class="panel panel-primary">
+          <div class="panel-heading"><h2>Registarion</h2></div>
+            <div class="panel-body">
+              <div class="mainframe" align="center">
+                  <form class="" action="datainput.php" method="post" enctype="multipart/form-data" name="RegForm" onsubmit="return valid()">
+                      <label for="FName">First Name</label><br>
+                      <input type="text" name="FName" placeholder="First Name" class="inputfield" ><br>
+                      <label for="LName">Last Name</label><br>
+                      <input type="text" name="LName" placeholder="Last Name" class="inputfield" ><br>
+                      <label for="Email">Email</label><br>
+                      <input type="email" name="email" placeholder="Email" class="inputfield" ><br>
+                      <label for="Password">Password</label><br>
+                      <input type="password" name="pass" placeholder="Password" class="inputfield" ><br>
+                    <label for="conformpassword">Conform Password</label><br>
+                    <input type="password" name="Conform" placeholder="Conform Password" class="inputfield" ><br>
+                    <label for="Mobile No:">Mobile No</label><br>
+                    <input type="number" name="mob" placeholder="Mobile" class="inputfield" ><br><br>
+                <!-- <label for="Image">Upload Your Image</label><br>
+                    <input type="file" class="inputfield" name="img" ><br><br>
+                  -->
+                    <input type="submit" name="submit" value="Submit" style="align:center" >
+
+                  </form>
+                </div>
+            </div>
+          </div>
+          </div>
+            <div class="col-sm-6">
+                  <div class="panel panel-primary">
+                      <div class="panel-heading"><h2>Login</h2></div>
+                        <div class="panel-body">
+                            <div class="mainframe" align="center">
+                                <form class="" action="signin.php" method="post">
+                                    <label for="UName">User Name</label><br>
+                                    <input type="text" name="Fname"placeholder="UName" class="inputfield"><br>
+                                    <label for="Password">Password</label><br>
+                                    <input type="password" name="pass" placeholder="Password" class="inputfield"><br>
+                                    <input type="submit" name="Login" value="Login"><br>
+                                  </form>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+
+</body>
+</html>
